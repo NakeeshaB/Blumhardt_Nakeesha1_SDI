@@ -18,4 +18,4 @@ console.log(user);
 var cookieNumber = prompt(" "+user+" how many cookies would you like to make?");
 console.log(cookieNumber);
 
-alert("Sounds great.  Let's figure out how many ingredients we will need for "+cookieNumber+" cookies.");
+alert("Sounds great. Let's figure out how many ingredients we will need for "+cookieNumber+" cookies.");

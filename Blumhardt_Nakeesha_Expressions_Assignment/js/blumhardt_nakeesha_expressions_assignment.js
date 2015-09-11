@@ -6,16 +6,17 @@ Expressions Assignment
 */
 
 //alert("Test to see if connected.");
-//create an ingredients list for Peanut Butter Cookie Recipe.
+//Help buy a car.
 
 // What is the person's name?    
-var user = prompt("Hello friend would you help me make some Peanut Butter Cookies?\nPlease tell me your name. ");
-alert("Thank you "+user+ " for your help.");
+var user = prompt("Hello friend would do you want to buy a car?\nPlease tell me your name. ");
+alert("Thank you "+user+ ".");
 console.log(user);
 
-//ask the user how many cookies do they want to make?
+//ask the user what type of car do they want?
 
-var cookieNumber = prompt(" "+user+" how many cookies would you like to make?");
-console.log(cookieNumber);
+var carType = prompt(" "+user+", What type of car do you want to buy?");
+console.log(carType);
 
-alert("Sounds great. Let's figure out how many ingredients we will need for "+cookieNumber+" cookies.");
+alert("Sounds great. Let's figure out how much a "+carType+ " will cost.");
+

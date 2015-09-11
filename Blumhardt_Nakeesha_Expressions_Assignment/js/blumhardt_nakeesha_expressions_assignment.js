@@ -25,3 +25,6 @@ console.log(monthlyPayment);
 
 var monthsFinance = prompt(" How many months would you like to finance your car for?");
 alert("  "+user+ ", your car will cost you $"+monthlyPayment*Number(monthsFinance)+" after it is completely paid off");
+
+var carPrice = monthlyPayment*monthsFinance
+console.log(carPrice);

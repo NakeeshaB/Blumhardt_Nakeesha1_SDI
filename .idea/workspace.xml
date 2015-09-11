@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef333bc7-2e7f-4a0d-bf27-58b163fb5e99" name="Default" comment="" />
+    <list default="true" id="ef333bc7-2e7f-4a0d-bf27-58b163fb5e99" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blumhardt_Nakeesha_Expressions_Assignment/js/blumhardt_nakeesha_expressions_assignment.js" afterPath="$PROJECT_DIR$/Blumhardt_Nakeesha_Expressions_Assignment/js/blumhardt_nakeesha_expressions_assignment.js" />
+    </list>
     <ignored path="Blumhardt_Nakeesha1_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,21 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Blumhardt_Nakeesha_Expressions_Assignment.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Blumhardt_Nakeesha_Expressions_Assignment.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Blumhardt_Nakeesha_Expressions_Assignment/Blumhardt_Nakeesha_Expressions_Assignment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09363296">
+            <state vertical-scroll-proportion="-3.125">
               <caret line="5" column="75" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blumhardt_nakeesha_expressions_assignment.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="blumhardt_nakeesha_expressions_assignment.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Blumhardt_Nakeesha_Expressions_Assignment/js/blumhardt_nakeesha_expressions_assignment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.23636363">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -350,18 +352,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blumhardt_Nakeesha_Expressions_Assignment/js/blumhardt_nakeesha_expressions_assignment.js">
+    <entry file="file://$PROJECT_DIR$/Blumhardt_Nakeesha_Expressions_Assignment/Blumhardt_Nakeesha_Expressions_Assignment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="5" column="75" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blumhardt_Nakeesha_Expressions_Assignment/Blumhardt_Nakeesha_Expressions_Assignment.html">
+    <entry file="file://$PROJECT_DIR$/Blumhardt_Nakeesha_Expressions_Assignment/js/blumhardt_nakeesha_expressions_assignment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09363296">
-          <caret line="5" column="75" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
+        <state vertical-scroll-proportion="0.23636363">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding />
         </state>
       </provider>

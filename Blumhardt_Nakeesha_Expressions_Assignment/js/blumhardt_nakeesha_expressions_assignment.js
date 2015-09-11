@@ -20,3 +20,8 @@ console.log(carType);
 
 alert("Sounds great. Let's figure out how much a "+carType+ " will cost.");
 
+var monthlyPayment = prompt(" " +user+" , how much would you be willing to pay monthly for your car");
+console.log(monthlyPayment);
+
+var monthsFinance = prompt(" How many months would you like to finance your car for?");
+alert("  "+user+ ", your car will cost you $"+monthlyPayment*Number(monthsFinance)+" after it is completely paid off");

@@ -13,3 +13,7 @@ alert("Okay " +name+ ", let's get started.");
 
 console.log(name);
 
+//figure out how much money the user makes a month.
+
+var monthlyIncome = prompt("" +name+ ", how much money do you earn each month after taxes?");
+console.log(monthlyIncome);

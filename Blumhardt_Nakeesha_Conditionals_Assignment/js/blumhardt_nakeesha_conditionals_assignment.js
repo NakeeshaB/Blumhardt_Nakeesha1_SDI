@@ -17,3 +17,10 @@ console.log(name);
 
 var monthlyIncome = prompt("" +name+ ", how much money do you earn each month after taxes?");
 console.log(monthlyIncome);
+
+var yearlyIncome = Number(monthlyIncome)*Number(12);
+
+var mortgage = Number(yearlyIncome)* Number(.20)/Number(12);
+console.log(mortgage);
+
+alert(""+name+" , you can afford to pay a monthly mortage amount of $"+mortgage+" a month." );

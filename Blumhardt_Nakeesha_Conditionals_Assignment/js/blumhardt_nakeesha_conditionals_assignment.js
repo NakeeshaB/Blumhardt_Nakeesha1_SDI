@@ -24,3 +24,11 @@ var mortgage = Number(yearlyIncome)* Number(.20)/Number(12);
 console.log(mortgage);
 
 alert(""+name+" , you can afford to pay a monthly mortage amount of $"+mortgage+" a month." );
+
+//figure out what type of home the user can buy based off of mortage amount
+
+var apartment = mortgage<500;
+
+if(apartment <500){
+ console.log("You can purchase an apartment!");
+}

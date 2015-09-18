@@ -27,15 +27,28 @@ alert(""+name+" , you can afford to pay a monthly mortage amount of $"+mortgage+
 
 //figure out what type of home the user can buy based off of mortage amount
 
-apartment= mortgage<400;
-condo= mortgage >750;
+apartment=mortgage<500;
+minMonthly=450;
+condo= mortgage>=699;
+house= mortgage>1400;
 
-a=500;
 
-if(apartment>=500){
+if(mortgage>=450){
   console.log("You can purchase an apartment!");
+ if(mortgage>=699){
+  console.log("You may purchase a Condo!")
+ }
+if(mortgage>=1400){
+ console.log("You may purchase a House");
+}
+}else{
+ console.log("You do not earn enough to purchase a home yet.");
+}
 
-}
-if(condo <=700){
-  console.log("You can purchase a Condo!");
-}
+//if(condo<=700){
+  //console.log("You can purchase a Condo!");
+//}
+
+//if(house<=1200){
+ // console.log("You can afford to purchase a House!");
+//}

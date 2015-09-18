@@ -31,8 +31,8 @@ apartment=mortgage<500;
 minMonthly=450;
 condo= mortgage>=699;
 house= mortgage>1400;
-share= mortgage>599;
-
+shareCondo= mortgage>599;
+shareHouse= mortgage=900;
 
 if(mortgage>=450){
   console.log("You can purchase an apartment!");
@@ -43,16 +43,22 @@ if(mortgage>=450){
 if(mortgage>=1400){
  console.log("You may purchase a House");
 }
-else if(mortgage>599){
+else if(mortgage>=shareCondo){
  console.log("You can purchase a Condo with a roommate.");
 }else{
  console.log("You do not earn enough to purchase a home yet.");
 }
-
+(mortgage>shareHouse) ? console.log("Purchase a House with a roommate."):console.log("You can not buy a house yet, but have other options.");
 //if(condo<=700){
   //console.log("You can purchase a Condo!");
 //}
 
 //if(house<=1200){
  // console.log("You can afford to purchase a House!");
-//}
+//}Test results :Sue
+//2300
+//460
+//You can purchase an apartment!
+//You may purchase a Condo!
+//You can purchase a Condo with a roommate. 
+//You can not buy a house yet, but have other options.

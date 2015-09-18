@@ -46,7 +46,7 @@ if(mortgage>=450){
 if(mortgage>=1400){
  console.log("You may purchase a House");
 }
-else if(mortgage>=shareCondo){
+else if(mortgage>=shareCondo||mortgage<1400){
  console.log("You can purchase a Condo with a roommate.");
 }else{
  console.log("You do not earn enough to purchase a home yet.");

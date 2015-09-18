@@ -31,16 +31,20 @@ apartment=mortgage<500;
 minMonthly=450;
 condo= mortgage>=699;
 house= mortgage>1400;
+share= mortgage>599;
 
 
 if(mortgage>=450){
   console.log("You can purchase an apartment!");
+ }
  if(mortgage>=699){
   console.log("You may purchase a Condo!")
  }
 if(mortgage>=1400){
  console.log("You may purchase a House");
 }
+else if(mortgage>599){
+ console.log("You can purchase a Condo with a roommate.");
 }else{
  console.log("You do not earn enough to purchase a home yet.");
 }

@@ -25,6 +25,9 @@ console.log(mortgage);
 
 alert(""+name+" , you can afford to pay a monthly mortage amount of $"+mortgage+" a month." );
 
+var answer = prompt(""+ name+ " What do you want to see added to the mortgage calculator?");
+console.log(answer);
+
 //figure out what type of home the user can buy based off of mortage amount
 
 apartment=mortgage<500;
@@ -49,9 +52,7 @@ else if(mortgage>=shareCondo){
  console.log("You do not earn enough to purchase a home yet.");
 }
 (mortgage>shareHouse) ? console.log("Purchase a House with a roommate."):console.log("You can not buy a house yet, but have other options.");
-//if(condo<=700){
-  //console.log("You can purchase a Condo!");
-//}
+//Test results were entered below.
 
 //if(house<=1200){
  // console.log("You can afford to purchase a House!");
@@ -60,5 +61,13 @@ else if(mortgage>=shareCondo){
 //460
 //You can purchase an apartment!
 //You may purchase a Condo!
-//You can purchase a Condo with a roommate. 
+//You can purchase a Condo with a roommate.
+//You can not buy a house yet, but have other options.
+
+//3400 blumhardt_nakeesha_conditionals_assignment.js:19:1
+//80 blumhardt_nakeesha_conditionals_assignment.js:24:1
+//A break down of the answers blumhardt_nakeesha_conditionals_assignment.js:29:1
+//You can purchase an apartment! blumhardt_nakeesha_conditionals_assignment.js:41:3
+//You may purchase a Condo! blumhardt_nakeesha_conditionals_assignment.js:44:3
+//You can purchase a Condo with a roommate. blumhardt_nakeesha_conditionals_assignment.js:50:2
 //You can not buy a house yet, but have other options.

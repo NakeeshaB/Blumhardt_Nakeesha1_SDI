@@ -42,3 +42,10 @@ console.log(futureAge);
 
 console.log("In "+ yearsMore+ " years, you will be "+futureAge+ " ." );
 alert("In "+ yearsMore+ " years, you will be "+futureAge+ " ." );
+
+var b=10;
+
+while (b>0){
+ console.log(b+ " kegs on a wall.");
+ b++
+}

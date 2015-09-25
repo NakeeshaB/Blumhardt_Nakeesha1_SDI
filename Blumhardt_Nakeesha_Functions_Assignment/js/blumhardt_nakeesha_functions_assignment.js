@@ -20,20 +20,31 @@ alert ("Let's figure out the area of 1 box of 'A' cookies that has a lenght of 7
 
 
 
-
+//function box 1
 var box1 = boxA(4,7);
-
-    function boxA(w,l){
+ function boxA(w,l){
         var area = w * l;
         return area;
 }
 
 console.log(" The area of Cookie A is  " +box1+ " .");
 
+var box2 = boxB(5, 8.5);
+function boxB(w,l){
+    var area = w * l ;
+    return area;
+}
+
+console.log(" The area of Cookie B is  "+ box2+ " ."); 
+
+// alert for user to enter the formula to find the area
+
 alert(" "  +name+ " ,you will need to use a formula that will help you find the area of a rectangle, such as Width * length.  ");
+
 
 var box1Width = prompt(" Please enter the width first of box A");
 
+//3rd prompt
 var box1Lenght = prompt("Please enter the length of box A");
 
 alert("Now multiply the two numbers together.");
@@ -41,10 +52,23 @@ var resultA = prompt("Please enter in your results.");
 
 var resultA =box1Width*box1Lenght;
 
-alert("The area should be  " + resultA+ " .");
+alert("The area should be  " + resultA+ " inches squared .");
 
 console.log(resultA);
 
+//var box1 = boxA(4,7);
+
+//function boxA(w,l){
+    //var area = w * l;
+   // return area;
+//}
+
+//console.log(" The area of Cookie A is  " +box1+ " .");
+
+//var box2 = boxB(5,8.5);
+    // function boxB(w,l){
+
+        // console.log("The area of Cookie B is " +box2+ " .");
 // regular function // regular functions can be called before or after they are defined.
 //var total = calArea(4,7);
 

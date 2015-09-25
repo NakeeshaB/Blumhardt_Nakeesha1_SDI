@@ -35,7 +35,8 @@ function boxB(w,l){
     return area;
 }
 
-console.log(" The area of Cookie B is  "+ box2+ " ."); 
+
+console.log(" The area of Cookie B is  "+ box2+ " .");
 
 // alert for user to enter the formula to find the area
 
@@ -55,6 +56,29 @@ var resultA =box1Width*box1Lenght;
 alert("The area should be  " + resultA+ " inches squared .");
 
 console.log(resultA);
+
+alert ( " Now let's calculate the area of Box B using the same formula.  The width is 5 inches and the length is  8.5.");
+var box2Width = prompt("Enter the width for the B Box.");
+var box2length = prompt("Enter the length for the B Box");
+
+var box2Result = prompt("Please enter in your results.");
+
+var box2Result = box2Width * box2length;
+
+console.log(" The area of Cookie B is " +box2Result+ " inches squared.");
+
+alert(" The area for Cookie B should be " +box2Result+ " inches squared.");
+
+alert(" Now lets calculate the area for Cookie C.");
+alert ("Cookie C's box has a width of 3 inches and a length of 7 inches.  Calculate the area.");
+var box3Width = prompt("Enter the width of Cookie c");
+var box3Length = prompt("Enter the length of Cookie c");
+
+var box3Results = prompt("Enter the total area of Cookie C");
+
+var box3Results = box3Width * box3Length;
+console.log(" The area of Cookie B is "+ box3Results+ " .");
+alert(" The area of Cookie B is "+box3Results+ " inches squared.");
 
 //var box1 = boxA(4,7);
 

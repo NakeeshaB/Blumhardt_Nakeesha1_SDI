@@ -27,7 +27,7 @@ var box1 = boxA(4,7);
         return area;
 }
 
-console.log(" The area of Cookie A is  " +box1+ " .");
+console.log(" The area of Cookie A is  " +box1+ " inches squared.");
 
 var box2 = boxB(5, 8.5);
 function boxB(w,l){
@@ -35,9 +35,20 @@ function boxB(w,l){
     return area;
 }
 
+console.log(" The area of Cookie B is  "+ box2+ " inches squared .");
 
-console.log(" The area of Cookie B is  "+ box2+ " .");
 
+var box3 = function()
+{   var width = 3;
+    var length = 7;
+    var area = width * length;
+    return area
+}
+
+var area = box3(3,7);
+console.log(" The area of Cookie C is " +area+ " inches squared .");
+
+//console.log(" The area for Cookie C is" + box3 + ".");
 // alert for user to enter the formula to find the area
 
 alert(" "  +name+ " ,you will need to use a formula that will help you find the area of a rectangle, such as Width * length.  ");

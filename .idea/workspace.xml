@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ef333bc7-2e7f-4a0d-bf27-58b163fb5e99" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blumhardt_Nakeesha_Functions_Assignment/js/blumhardt_nakeesha_functions_assignment.js" afterPath="$PROJECT_DIR$/Blumhardt_Nakeesha_Functions_Assignment/js/blumhardt_nakeesha_functions_assignment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Blumhardt_Nakeesha1_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,8 +36,8 @@
       <file leaf-file-name="blumhardt_nakeesha_functions_assignment.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Blumhardt_Nakeesha_Functions_Assignment/js/blumhardt_nakeesha_functions_assignment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6363636">
-              <caret line="119" column="2" selection-start-line="119" selection-start-column="2" selection-end-line="119" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.6181818">
+              <caret line="118" column="64" selection-start-line="118" selection-start-column="64" selection-end-line="118" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -576,8 +575,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Blumhardt_Nakeesha_Functions_Assignment/js/blumhardt_nakeesha_functions_assignment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6363636">
-          <caret line="119" column="2" selection-start-line="119" selection-start-column="2" selection-end-line="119" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.6181818">
+          <caret line="118" column="64" selection-start-line="118" selection-start-column="64" selection-end-line="118" selection-end-column="64" />
           <folding />
         </state>
       </provider>

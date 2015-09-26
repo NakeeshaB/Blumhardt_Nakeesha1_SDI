@@ -114,7 +114,9 @@ var truckA = 2300;
 var truckB = 5000;
 var truckC = 10100;
 
-
+// Test cookie a with width of 10 and length of 16 area equal to 160
+//Test cookie with width of 2 and length of 14 area equal to 28
+//Test cookie with width of 24 and legth of 12 area equal to 288
 
 
 //
